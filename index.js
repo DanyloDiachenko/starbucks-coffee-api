@@ -12,7 +12,7 @@ app.listen(5000, () => {
 });
 
 mongoose
-	.connect(process.env.DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+	.connect("mongodb+srv://Danil:danil11122@cluster0.sw0tsbd.mongodb.net/coffee-shop", { useNewUrlParser: true, useUnifiedTopology: true })
 	.then(() => console.log('Successfully connected to database'))
 	.catch(error => console.log('Connection error: ', error));
 

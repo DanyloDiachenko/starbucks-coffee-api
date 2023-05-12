@@ -4,8 +4,14 @@ const coffeeRoutes = require('./routes/coffee-routes');
 require('dotenv').config();
 
 const app = express();
+
+const PORT = process.env.PORT || '8080';
+
+app.set('port', PORT);
+
 app.use(express.json());
 app.use(coffeeRoutes);
+
 
 app.listen(5000, () => {
 	console.log(`Server started on port ${5000}`);

@@ -7,6 +7,10 @@ const coffeeSchema = new Schema({
 		type: String,
 		required: true
 	},
+	createdAt: {
+		type: Date,
+		required: true
+	},
 	description: {
 		type: String,
 		required: true
@@ -19,12 +23,20 @@ const coffeeSchema = new Schema({
 		type: Number,
 		required: true
 	},
+	totalFat19g: {
+		type: String,
+		required: true
+	},
+	saturatedFat3g: {
+		type: String,
+		required: true
+	},
+	transFat05g: {
+		type: String,
+		required: true
+	},
 	details: [
 		{
-			id: {
-				type: Number,
-				required: true
-			},
 			size: {
 				type: String,
 				required: true
@@ -45,18 +57,6 @@ const coffeeSchema = new Schema({
 				type: String,
 				required: true
 			},
-			totalFat19g: {
-				type: String,
-				required: true
-			},
-			saturatedFat3g: {
-				type: String,
-				required: true
-			},
-			transFat05g: {
-				type: String,
-				required: true
-			}
 		}
 	]
 });

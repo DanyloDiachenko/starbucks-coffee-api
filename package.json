@@ -16,7 +16,7 @@
         "nodemon": "^2.0.22"
     },
     "scripts": {
-        "dev": "nodemon index",
+        "dev": "nodemon index.js",
         "start": "node index.js"
     },
     "engines": {

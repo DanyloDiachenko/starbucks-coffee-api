@@ -1,6 +1,6 @@
 # Starbucks coffee api
 
-Created for: https://github.com/DanyloDiachenko/starbucks-coffee
+Created for: https://github.com/DanyloDiachenko/starbucks-coffee.
 Created using MVC architecture
 
 ### Stack:

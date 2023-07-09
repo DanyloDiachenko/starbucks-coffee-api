@@ -1,3 +1,5 @@
+stage: production ready
+
 # Starbucks coffee api
 
 Created for: https://github.com/DanyloDiachenko/starbucks-coffee.
